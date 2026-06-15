@@ -7,6 +7,12 @@
 */
 
 // Start coding here
+function reverseText(text) {
+    let toArray = text.split("");
+    let reversedArray = toArray.reverse();
+    let reversedText = reversedArray.join("");
+    return reversedText;
+}
 
 let text1 = "Techup";
 console.log(reverseText(text1)); // puhcet

@@ -8,6 +8,10 @@
 */
 
 // Start coding here
+function calculateTempt(tempt) {
+    let toCelsius = tempt.map((temp) => (temp - 32) * 5 / 9);
+    return toCelsius;
+}
 
 const tempt1 = [14.0, 15.8, 24.8, 32.0];
 console.log(calculateTempt(tempt1)); // [ -10, -9, -4, 0 ]
