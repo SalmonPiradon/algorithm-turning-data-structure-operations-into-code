@@ -8,7 +8,7 @@
 
 // Start coding here
 function reverseText(text) {
-    let toArray = text.split("");
+    let toArray = text.toLowerCase().split("");
     let reversedArray = toArray.reverse();
     let reversedText = reversedArray.join("");
     return reversedText;
